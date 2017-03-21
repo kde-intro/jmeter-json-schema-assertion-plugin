@@ -22,3 +22,22 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 ## Notes
 
 This assertion are costly and avoid using its during load tests.
+
+
+## Tasks List
+- [x] Create Maven version (plugin)
+- [x] Add test class JSONSchemaAssertionTest
+- [ ] Resolve (two) issues
+- [ ] Add flag schema/response
+- [ ] Add textarea for JSON Schema
+
+
+## Changelog
+
+
+## Roadmap
+
+## Troubleshooting
+
+## Support
+

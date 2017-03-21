@@ -16,7 +16,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 
 1. Checkout the source.
 2. Create _jar_ file by running Maven build _clean, package_.
-3. Put the generated jar file (Custom_JsonSchemaAssertion_component.jar) from _target_ folder to JMeter directory _JMeter home directory>/lib/ext/_
+3. Put the generated jar file (Custom_JsonSchemaAssertion_component.jar) from _target_ folder to JMeter directory _JMeter home directory/lib/ext/_
 
 
 ## Notes

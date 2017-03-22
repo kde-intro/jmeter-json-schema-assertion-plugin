@@ -67,7 +67,7 @@
                     <descriptorRefs>
                         <descriptorRef>jar-with-dependencies</descriptorRef>
                     </descriptorRefs>
-                    <finalName>Custom_JsonSchemaAssertion_component</finalName>
+                    <finalName>Custom_JsonSchemaAssertion_component-${version}</finalName>
                     <appendAssemblyId>false</appendAssemblyId>
                 </configuration>
                 <executions>

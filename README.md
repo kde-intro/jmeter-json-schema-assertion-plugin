@@ -21,7 +21,8 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 
 ## Notes
 
-This assertion are costly and avoid using its during load tests.
+- This assertion are costly and avoid using its during load tests.
+- This product includes https://github.com/daveclayton/json-schema-validator (LGPLv3 (or later), ASL 2.0)
 
 
 ## Tasks List

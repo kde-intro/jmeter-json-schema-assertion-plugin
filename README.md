@@ -24,16 +24,15 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 ## Tasks List
 - [x] Create Maven version (plugin)
 - [x] Add test class JSONSchemaAssertionTest
-- [ ] Resolve (two) issues
 - [x] Add flag schema/response
 - [ ] Add textarea for a schema
 
 
 ## Changelog
-**0.1**, _06 mar 2017_
+**v0.1**, _06 mar 2017_
   - [created] initial release
   
-**0.2**, _23 mar 2017_
+**v0.2**, _23 mar 2017_
   - [fixed] failure mesage for the validation error cases
   - [added] object flag of the source error (response/schema) into failure message
 

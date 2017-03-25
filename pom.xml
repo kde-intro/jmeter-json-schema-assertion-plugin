@@ -6,7 +6,7 @@
 
     <groupId>ru.kde.intro</groupId>
     <artifactId>jmeter-jsa</artifactId>
-    <version>0.2</version>
+    <version>0.3</version>
     <packaging>jar</packaging>
 
     <name>JSON Schema Assertion component for JMeter</name>

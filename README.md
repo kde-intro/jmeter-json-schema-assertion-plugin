@@ -33,8 +33,11 @@ _File Name_ | Specify JSON Schema File Name. | Yes
   - [created] initial release
   
 **v0.2**, _23 mar 2017_
-  - [fixed] failure mesage for the validation error cases
+  - [fixed] failure message for the validation error cases
   - [added] object flag of the source error (response/schema) into failure message
+
+**v0.3**, _26 mar 2017_
+  - [fixed] failure message in cases of the object flag usaging
 
 
 ## Roadmap

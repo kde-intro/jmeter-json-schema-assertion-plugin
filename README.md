@@ -42,7 +42,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 
 
 ## Roadmap
-- [ ] Add schema generation (from/based on a responce)
+- [ ] Add schema generation (from/based on a response)
 
 
 ## Troubleshooting

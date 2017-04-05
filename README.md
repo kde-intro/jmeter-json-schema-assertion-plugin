@@ -26,6 +26,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 - [x] Add test class JSONSchemaAssertionTest
 - [x] Add flag schema/response
 - [ ] Add textarea for a schema
+- [ ] Add schema validation by button
 
 
 ## Changelog
@@ -41,6 +42,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 
 
 ## Roadmap
+- [ ] Add schema generation (from/based on a responce)
 
 
 ## Troubleshooting

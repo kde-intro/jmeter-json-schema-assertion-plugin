@@ -43,6 +43,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 
 ## Roadmap
 - [ ] Add schema generation (from/based on a response)
+- [ ] Integrate JSON & XML Scheme Assertions in one component (add radio-box / autodetection ? - protocol type switching)
 
 
 ## Troubleshooting

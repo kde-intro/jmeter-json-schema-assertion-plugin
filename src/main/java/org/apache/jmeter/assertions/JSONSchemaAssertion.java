@@ -74,7 +74,12 @@ public class JSONSchemaAssertion extends AbstractTestElement implements Serializ
             errObj = "(responce) ";
             JsonNode response = JsonLoader.fromString(jsonStr);
             errObj = "(schema) ";
-            JsonNode schemaFile = JsonLoader.fromPath(jsdFileName);
+            JsonNode schemaFile;
+            if (jsdFileName.trim().charAt(0) == '[' || jsdFileName.trim().charAt(0) == '{') {
+                schemaFile = JsonLoader.fromString(jsonStr);
+            } else {
+                schemaFile = JsonLoader.fromPath(jsdFileName);
+            }
             schema = factory.getJsonSchema(schemaFile);
             errObj = "";
             ProcessingReport report = schema.validate(response);

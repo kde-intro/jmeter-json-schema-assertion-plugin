@@ -40,7 +40,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
   - [fixed] failure message in cases of the object flag usaging
 
 **v.0.4**, _14 jun 2017_
-  - [added] support of passing json schema by variable and string at the parameter 'FileName'. _You can pass a path or json scheme by variable or property. For example you can use Variable definition panel to describe json scheme and pass it to the assertion into File Name parameter as the variable._
+  - [added] support of passing json schema by variable and string at the parameter 'FileName'. _You can pass a path or json scheme by variable or property. For example you can use Variable definition panel to describe json schema and pass it to the assertion into File Name parameter as the variable._
 
 
 ## Roadmap

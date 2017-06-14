@@ -12,6 +12,7 @@ import org.apache.jmeter.testelement.AbstractTestElement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.Serializable;
 
@@ -75,8 +76,9 @@ public class JSONSchemaAssertion extends AbstractTestElement implements Serializ
             JsonNode response = JsonLoader.fromString(jsonStr);
             errObj = "(schema) ";
             JsonNode schemaFile;
-            if (jsdFileName.trim().charAt(0) == '[' || jsdFileName.trim().charAt(0) == '{') {
-                schemaFile = JsonLoader.fromString(jsonStr);
+            File fjs = new File(jsdFileName);
+            if ( getJsdFileName().trim().substring(0, 1).contains("{") && (!(fjs.exists() && !fjs.isDirectory())) ) {
+                schemaFile = JsonLoader.fromString(jsdFileName);
             } else {
                 schemaFile = JsonLoader.fromPath(jsdFileName);
             }

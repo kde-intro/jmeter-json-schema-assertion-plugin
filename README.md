@@ -40,11 +40,14 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 **v0.3**, _26 mar 2017_
   - [fixed] failure message in cases of the object flag usaging
 
+**v.0.4**, _14 jun 2017_
+  - [added] support of passing json schema by variable and string at the parameter 'FileName'
+
 
 ## Roadmap
 - [ ] Add schema generation (from/based on a response)
 - [ ] Integrate JSON & XML Scheme Assertions in one component (add radio-box / autodetection ? - protocol type switching)
-- [ ] Add support of variables / properties - pass json schema by variable (or/and properties)
+- [x] Add support of variables / properties - pass json schema by variable (or/and properties)
 
 
 ## Troubleshooting

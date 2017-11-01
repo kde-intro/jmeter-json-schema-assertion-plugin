@@ -45,7 +45,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 
 ## Roadmap
 - [ ] Add schema generation (from/based on a response).
-- [ ] Join JSON & XML Schema Assertions and add the protocol type switcher (add radio-box / autodetection?).
+- [ ] Unify JSON & XML Schema Assertions and add the protocol type switcher (add radio-box / autodetection?).
 - [x] Add support of variables / properties - pass json schema by variable (or/and properties).
 
 

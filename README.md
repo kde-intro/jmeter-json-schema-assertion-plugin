@@ -25,7 +25,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 - [x] Create Maven version (plugin).
 - [x] Add test class JSONSchemaAssertionTest.
 - [x] Add flag schema/response.
-- [ ] Add schema validation by button.
+- [ ] Add schema validation on click (add the button).
 
 
 ## Changelog
@@ -39,7 +39,7 @@ _File Name_ | Specify JSON Schema File Name. | Yes
 **v0.3**, _26 mar 2017_
   - [fixed] Failure message in cases of the object flag using.
 
-**v.0.4**, _14 jun 2017_
+**v0.4**, _14 jun 2017_
   - [added] Support of passing json schema by variable and string at the parameter 'File Name'. _You can pass a path or json schema by variable or property. For example you can use Variable definition panel to describe json schema and pass it to the assertion into File Name parameter as the variable._
 
 
